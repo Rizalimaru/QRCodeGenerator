@@ -1,0 +1,598 @@
+[
+  {
+    "command": "frame.create",
+    "params": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 900,
+      "name": "Desktop",
+      "props": {
+        "fill": "#F3F4F6",
+        "clip": true
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 2,
+      "x": 100,
+      "y": 80,
+      "width": 1240,
+      "height": 740,
+      "name": "Hero Card",
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 6,
+        "clip": false,
+        "effects": [
+          {
+            "type": "dropShadow",
+            "color": "#0F172A14",
+            "offset": [
+              0,
+              24
+            ],
+            "radius": 56,
+            "spread": -4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 1036,
+      "y": 44,
+      "width": 156,
+      "height": 42,
+      "name": "Top Download Pill",
+      "props": {
+        "fill": "#E81C74",
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center",
+        "effects": [
+          {
+            "type": "dropShadow",
+            "color": "#E81C7430",
+            "offset": [
+              0,
+              8
+            ],
+            "radius": 20,
+            "spread": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 4,
+      "x": 0,
+      "y": 0,
+      "text": "Download PNG",
+      "name": "Top Download Text",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#FFFFFF"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 3,
+      "x": 96,
+      "y": 218,
+      "text": "Generate QR cleanly",
+      "name": "Headline",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Light",
+        "fontSize": 42,
+        "letterSpacing": -0.5,
+        "fill": "#1F2937"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 3,
+      "x": 96,
+      "y": 280,
+      "width": 440,
+      "text": "Paste any link or text below, click generate, and download\ncrisp QR codes in multiple sizes for personal use.",
+      "name": "Subtitle",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Regular",
+        "fontSize": 15,
+        "lineHeight": 24,
+        "fill": "#8B929E"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 96,
+      "y": 362,
+      "width": 440,
+      "height": 52,
+      "name": "Input Field",
+      "props": {
+        "fill": "#FAFAFB",
+        "stroke": "#E5E7EB",
+        "strokeWeight": 1,
+        "cornerRadius": 12
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 8,
+      "x": 18,
+      "y": 17,
+      "text": "https://example.com/my-project",
+      "name": "Input Value",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#1F2937"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 8,
+      "x": 410,
+      "y": 14,
+      "text": "\u00d7",
+      "name": "Clear Icon",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Regular",
+        "fontSize": 18,
+        "fill": "#9CA3AF"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 3,
+      "x": 96,
+      "y": 438,
+      "text": "Export size",
+      "name": "Size Label",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 12,
+        "fill": "#9CA3AF"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 96,
+      "y": 462,
+      "width": 76,
+      "height": 34,
+      "name": "Size 256",
+      "props": {
+        "fill": "#F3F4F6",
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 12,
+      "x": 0,
+      "y": 0,
+      "text": "256px",
+      "name": "256px",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 12,
+        "fill": "#4B5563"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 182,
+      "y": 462,
+      "width": 76,
+      "height": 34,
+      "name": "Size 512 Active",
+      "props": {
+        "fill": "#1F2937",
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 14,
+      "x": 0,
+      "y": 0,
+      "text": "512px",
+      "name": "512px",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 12,
+        "fill": "#FFFFFF"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 268,
+      "y": 462,
+      "width": 82,
+      "height": 34,
+      "name": "Size 1024",
+      "props": {
+        "fill": "#F3F4F6",
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 16,
+      "x": 0,
+      "y": 0,
+      "text": "1024px",
+      "name": "1024px",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 12,
+        "fill": "#4B5563"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 360,
+      "y": 462,
+      "width": 82,
+      "height": 34,
+      "name": "Size 2048",
+      "props": {
+        "fill": "#F3F4F6",
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 18,
+      "x": 0,
+      "y": 0,
+      "text": "2048px",
+      "name": "2048px",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 12,
+        "fill": "#4B5563"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 96,
+      "y": 524,
+      "width": 168,
+      "height": 46,
+      "name": "Generate Button",
+      "props": {
+        "fill": "#1F2937",
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center",
+        "effects": [
+          {
+            "type": "dropShadow",
+            "color": "#1F293726",
+            "offset": [
+              0,
+              10
+            ],
+            "radius": 24,
+            "spread": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 20,
+      "x": 0,
+      "y": 0,
+      "text": "Generate QR",
+      "name": "Generate Label",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 14,
+        "fill": "#FFFFFF"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 278,
+      "y": 524,
+      "width": 134,
+      "height": 46,
+      "name": "Export SVG Button",
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#E5E7EB",
+        "strokeWeight": 1,
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 22,
+      "x": 0,
+      "y": 0,
+      "text": "Export SVG",
+      "name": "SVG Label",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 14,
+        "fill": "#4B5563"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 3,
+      "x": 748,
+      "y": 142,
+      "width": 320,
+      "height": 496,
+      "name": "Floating QR Device",
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#F1F5F9",
+        "strokeWeight": 1.5,
+        "cornerRadius": 40,
+        "clip": false,
+        "effects": [
+          {
+            "type": "dropShadow",
+            "color": "#0F172A1A",
+            "offset": [
+              0,
+              28
+            ],
+            "radius": 64,
+            "spread": -8
+          }
+        ]
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 24,
+      "x": 132,
+      "y": 24,
+      "width": 56,
+      "height": 5,
+      "name": "Speaker Pill",
+      "props": {
+        "fill": "#E5E7EB",
+        "cornerRadius": 999
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 24,
+      "x": 20,
+      "y": 48,
+      "width": 280,
+      "height": 380,
+      "name": "Device Screen",
+      "props": {
+        "fill": "#FBFBFC",
+        "stroke": "#F1F5F9",
+        "strokeWeight": 1,
+        "cornerRadius": 20
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 26,
+      "x": 103,
+      "y": 20,
+      "text": "QR Preview",
+      "name": "Screen Title",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#6B7280"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 26,
+      "x": 34,
+      "y": 54,
+      "width": 212,
+      "height": 212,
+      "name": "QR Surface",
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#F1F5F9",
+        "strokeWeight": 1,
+        "cornerRadius": 16,
+        "clip": false,
+        "effects": [
+          {
+            "type": "dropShadow",
+            "color": "#0F172A0D",
+            "offset": [
+              0,
+              8
+            ],
+            "radius": 24,
+            "spread": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "command": "vector.create",
+    "params": {
+      "parent": 28,
+      "x": 22,
+      "y": 22,
+      "path": "M0 0h8v8h-8ZM8 0h8v8h-8ZM16 0h8v8h-8ZM24 0h8v8h-8ZM32 0h8v8h-8ZM40 0h8v8h-8ZM48 0h8v8h-8ZM64 0h8v8h-8ZM112 0h8v8h-8ZM120 0h8v8h-8ZM128 0h8v8h-8ZM136 0h8v8h-8ZM144 0h8v8h-8ZM152 0h8v8h-8ZM160 0h8v8h-8ZM0 8h8v8h-8ZM48 8h8v8h-8ZM72 8h8v8h-8ZM80 8h8v8h-8ZM112 8h8v8h-8ZM160 8h8v8h-8ZM0 16h8v8h-8ZM16 16h8v8h-8ZM24 16h8v8h-8ZM32 16h8v8h-8ZM48 16h8v8h-8ZM72 16h8v8h-8ZM80 16h8v8h-8ZM88 16h8v8h-8ZM112 16h8v8h-8ZM128 16h8v8h-8ZM136 16h8v8h-8ZM144 16h8v8h-8ZM160 16h8v8h-8ZM0 24h8v8h-8ZM16 24h8v8h-8ZM24 24h8v8h-8ZM32 24h8v8h-8ZM48 24h8v8h-8ZM64 24h8v8h-8ZM72 24h8v8h-8ZM80 24h8v8h-8ZM112 24h8v8h-8ZM128 24h8v8h-8ZM136 24h8v8h-8ZM144 24h8v8h-8ZM160 24h8v8h-8ZM0 32h8v8h-8ZM16 32h8v8h-8ZM24 32h8v8h-8ZM32 32h8v8h-8ZM48 32h8v8h-8ZM80 32h8v8h-8ZM88 32h8v8h-8ZM112 32h8v8h-8ZM128 32h8v8h-8ZM136 32h8v8h-8ZM144 32h8v8h-8ZM160 32h8v8h-8ZM0 40h8v8h-8ZM48 40h8v8h-8ZM80 40h8v8h-8ZM88 40h8v8h-8ZM96 40h8v8h-8ZM112 40h8v8h-8ZM160 40h8v8h-8ZM0 48h8v8h-8ZM8 48h8v8h-8ZM16 48h8v8h-8ZM24 48h8v8h-8ZM32 48h8v8h-8ZM40 48h8v8h-8ZM48 48h8v8h-8ZM64 48h8v8h-8ZM80 48h8v8h-8ZM96 48h8v8h-8ZM112 48h8v8h-8ZM120 48h8v8h-8ZM128 48h8v8h-8ZM136 48h8v8h-8ZM144 48h8v8h-8ZM152 48h8v8h-8ZM160 48h8v8h-8ZM72 56h8v8h-8ZM80 56h8v8h-8ZM88 56h8v8h-8ZM96 56h8v8h-8ZM0 64h8v8h-8ZM16 64h8v8h-8ZM32 64h8v8h-8ZM48 64h8v8h-8ZM88 64h8v8h-8ZM96 64h8v8h-8ZM0 72h8v8h-8ZM8 72h8v8h-8ZM24 72h8v8h-8ZM56 72h8v8h-8ZM64 72h8v8h-8ZM72 72h8v8h-8ZM96 72h8v8h-8ZM104 72h8v8h-8ZM112 72h8v8h-8ZM120 72h8v8h-8ZM128 72h8v8h-8ZM0 80h8v8h-8ZM24 80h8v8h-8ZM40 80h8v8h-8ZM48 80h8v8h-8ZM56 80h8v8h-8ZM72 80h8v8h-8ZM88 80h8v8h-8ZM112 80h8v8h-8ZM128 80h8v8h-8ZM152 80h8v8h-8ZM160 80h8v8h-8ZM0 88h8v8h-8ZM8 88h8v8h-8ZM16 88h8v8h-8ZM24 88h8v8h-8ZM56 88h8v8h-8ZM64 88h8v8h-8ZM80 88h8v8h-8ZM104 88h8v8h-8ZM120 88h8v8h-8ZM128 88h8v8h-8ZM136 88h8v8h-8ZM160 88h8v8h-8ZM8 96h8v8h-8ZM32 96h8v8h-8ZM48 96h8v8h-8ZM80 96h8v8h-8ZM96 96h8v8h-8ZM104 96h8v8h-8ZM120 96h8v8h-8ZM144 96h8v8h-8ZM64 104h8v8h-8ZM104 104h8v8h-8ZM136 104h8v8h-8ZM144 104h8v8h-8ZM0 112h8v8h-8ZM8 112h8v8h-8ZM16 112h8v8h-8ZM24 112h8v8h-8ZM32 112h8v8h-8ZM40 112h8v8h-8ZM48 112h8v8h-8ZM80 112h8v8h-8ZM128 112h8v8h-8ZM0 120h8v8h-8ZM48 120h8v8h-8ZM80 120h8v8h-8ZM88 120h8v8h-8ZM96 120h8v8h-8ZM104 120h8v8h-8ZM112 120h8v8h-8ZM160 120h8v8h-8ZM0 128h8v8h-8ZM16 128h8v8h-8ZM24 128h8v8h-8ZM32 128h8v8h-8ZM48 128h8v8h-8ZM104 128h8v8h-8ZM120 128h8v8h-8ZM144 128h8v8h-8ZM152 128h8v8h-8ZM0 136h8v8h-8ZM16 136h8v8h-8ZM24 136h8v8h-8ZM32 136h8v8h-8ZM48 136h8v8h-8ZM80 136h8v8h-8ZM112 136h8v8h-8ZM136 136h8v8h-8ZM144 136h8v8h-8ZM160 136h8v8h-8ZM0 144h8v8h-8ZM16 144h8v8h-8ZM24 144h8v8h-8ZM32 144h8v8h-8ZM48 144h8v8h-8ZM88 144h8v8h-8ZM112 144h8v8h-8ZM128 144h8v8h-8ZM136 144h8v8h-8ZM144 144h8v8h-8ZM0 152h8v8h-8ZM48 152h8v8h-8ZM128 152h8v8h-8ZM144 152h8v8h-8ZM160 152h8v8h-8ZM0 160h8v8h-8ZM8 160h8v8h-8ZM16 160h8v8h-8ZM24 160h8v8h-8ZM32 160h8v8h-8ZM40 160h8v8h-8ZM48 160h8v8h-8ZM72 160h8v8h-8ZM80 160h8v8h-8ZM104 160h8v8h-8ZM112 160h8v8h-8ZM120 160h8v8h-8ZM136 160h8v8h-8ZM144 160h8v8h-8Z",
+      "name": "QR Matrix",
+      "props": {
+        "fill": "#111827",
+        "stroke": "none"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 26,
+      "x": 24,
+      "y": 282,
+      "width": 232,
+      "text": "https://example.com/my-project",
+      "name": "Encoded Label",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "textAlign": "center",
+        "fill": "#6B7280"
+      }
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "parent": 26,
+      "x": 74,
+      "y": 318,
+      "width": 132,
+      "height": 34,
+      "name": "Card Download Pill",
+      "props": {
+        "fill": "#E81C74",
+        "cornerRadius": 999,
+        "layout": "horizontal",
+        "mainAlign": "center",
+        "crossAlign": "center"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 31,
+      "x": 0,
+      "y": 0,
+      "text": "Save 512\u00d7512",
+      "name": "Card Download Label",
+      "props": {
+        "fontFamily": "Roboto",
+        "fontStyle": "Medium",
+        "fontSize": 12,
+        "fill": "#FFFFFF"
+      }
+    }
+  },
+  {
+    "command": "shape.ellipse",
+    "params": {
+      "parent": 24,
+      "x": 140,
+      "y": 442,
+      "width": 40,
+      "height": 40,
+      "name": "Home Circle",
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#E5E7EB",
+        "strokeWeight": 1.5
+      }
+    }
+  }
+]
