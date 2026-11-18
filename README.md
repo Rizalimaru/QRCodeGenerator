@@ -44,5 +44,5 @@ Repositori ini sudah dilengkapi konfigurasi `base: './'` pada `vite.config.ts` s
 3. Pada bagian **Build and deployment → Source**, pilih **GitHub Actions**.
 4. Setelah workflow **Deploy to GitHub Pages** selesai berjalan, website dapat langsung diakses melalui URL GitHub Pages Anda:
    ```text
-   https://<username>.github.io/<nama-repo>/
+   https://rizalimaru.github.io/QRCodeGenerator/
    ```
